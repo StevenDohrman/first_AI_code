@@ -1,0 +1,22 @@
+{
+  "appointments": [
+    {
+      "user": "John Doe",
+      "time": "Mon 8:00",
+      "duration": 30,
+      "week": 14
+    },
+    {
+      "user": "Steven Dohrman",
+      "time": "Tue 11:00",
+      "duration": 30,
+      "week": 14
+    },
+    {
+      "user": "Steven Dohrman",
+      "time": "Mon 9:00",
+      "duration": 30,
+      "week": 14
+    }
+  ]
+}

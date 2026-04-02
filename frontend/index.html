@@ -16,8 +16,12 @@
     <section class="user-input">
       <h2>Schedule an Appointment</h2>
       <div class="input-group">
-        <label for="username">Your Name:</label>
-        <input type="text" id="username" placeholder="Enter your name">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" placeholder="Enter first name">
+      </div>
+      <div class="input-group">
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" placeholder="Enter last name">
       </div>
       <div class="input-group">
         <label for="duration">Appointment Duration:</label>
@@ -31,6 +35,7 @@
     
     <section id="slots" class="slots-container">
       <h2>Available Slots</h2>
+      <div id="dayFilterButtons" class="day-button-container"></div>
       <div id="slotsList"></div>
     </section>
     

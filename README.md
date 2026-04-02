@@ -35,13 +35,13 @@ A web-based appointment scheduling application that allows users to book 30-minu
 
 1. Start the backend server:
    ```bash
-   node backend/server.js
+   npm start
    ```
-   The server will start on http://localhost:3000
+   The server will start on http://localhost:3000 and serve the frontend automatically.
 
-2. Open the frontend in your browser:
+2. Open the app in your browser:
    ```bash
-   open frontend/index.html
+   open http://localhost:3000
    ```
 
 3. Use the application:
