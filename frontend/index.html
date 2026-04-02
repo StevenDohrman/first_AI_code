@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scheduling App</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="week.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Scheduling App</h1>
+    <div id="weekInfo"></div>
+  </header>
+  <main>
+    <section class="user-input">
+      <h2>Schedule an Appointment</h2>
+      <div class="input-group">
+        <label for="username">Your Name:</label>
+        <input type="text" id="username" placeholder="Enter your name">
+      </div>
+      <div class="input-group">
+        <label for="duration">Appointment Duration:</label>
+        <select id="duration">
+          <option value="30">30 minutes</option>
+          <option value="60">1 hour</option>
+        </select>
+      </div>
+      <button onclick="fetchSlots()">Check Availability</button>
+    </section>
+    
+    <section id="slots" class="slots-container">
+      <h2>Available Slots</h2>
+      <div id="slotsList"></div>
+    </section>
+    
+    <section id="appointments" class="appointments-container">
+      <h2>Your Appointments</h2>
+      <div id="appointmentsList"></div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
